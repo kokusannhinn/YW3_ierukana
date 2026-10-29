@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#236a50">
+<meta name="description" content="妖怪ウォッチ3の妖怪698体＋ボス54体を思い出して大辞典を埋める非公式ファンクイズ。">
+<title>妖怪ウォッチ3｜全妖怪言えるかな？</title>
+<style>
+:root{color-scheme:light;--ink:#243c3a;--muted:#667874;--green:#236a50;--green2:#12835d;--red:#bd5440;--gold:#e4b65c;--border:#d9e4df;--shadow:0 5px 24px rgba(26,69,51,.065)}
+*{box-sizing:border-box}html,body{min-height:100%}body{background:radial-gradient(circle at 10% 0,#fdf5e7 0,transparent 27%),#f6f9f7;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif;margin:0;font-size:14px}button,input{font:inherit}button{cursor:pointer;transition:background .15s,transform .15s,border-color .15s}button:focus-visible,input:focus-visible,.collection:focus-visible{outline:3px solid #e6ac4c;outline-offset:2px}button:disabled{opacity:.42;cursor:not-allowed}button[hidden],div[hidden],span[hidden]{display:none!important}main{max-width:1510px;margin:0 auto;padding:21px 26px 25px}.mast{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}.headline{display:flex;gap:14px;align-items:center}.seal{width:49px;height:49px;border:4px double #d5a44c;background:#fff9e7;border-radius:50%;display:grid;place-items:center;color:#b7513c;font-weight:900;font-size:20px;box-shadow:inset 0 0 0 4px #f5e7ca;flex:0 0 auto}.subtitle{font-size:12px;font-weight:800;color:#b9553b;letter-spacing:.11em}.mast h1{font-size:clamp(22px,3vw,32px);margin:1px 0 0;line-height:1.12;letter-spacing:-.04em}.helper{border:1px solid var(--border);border-radius:12px;background:white;padding:9px 15px;color:var(--ink);font-size:12px;font-weight:700}.helper:hover{background:#edf5f0}.modes{display:flex;justify-content:center;margin:0 auto 15px;width:max-content;max-width:100%;padding:5px;background:#e8f0ea;border-radius:13px;gap:5px}.mode{border:0;background:transparent;border-radius:9px;font-size:13px;font-weight:700;color:#6b8177;padding:11px 23px}.mode small{font-size:11px;margin-left:4px;opacity:.75}.mode.active{background:var(--green);color:white;box-shadow:0 3px 9px #174e3a25}.control-panel{background:white;border:1px solid var(--border);box-shadow:var(--shadow);border-radius:17px;padding:14px 16px 9px;margin-bottom:15px}.toolbar{display:flex;gap:10px;align-items:stretch}.timer,.score{height:53px;background:#f8faf8;border:1px solid #e1e9e4;border-radius:11px;display:flex;align-items:center;justify-content:center}.timer{font:700 23px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:-.05em;min-width:156px;font-variant-numeric:tabular-nums}.score{gap:20px;min-width:239px;padding:0 14px;white-space:nowrap}.score small{display:block;text-align:center;color:var(--muted);font-weight:700;font-size:10px;letter-spacing:.06em}.score strong{color:var(--green);font-size:23px;font-variant-numeric:tabular-nums}.score .slash{color:#90a399;font-size:14px}.remaining strong{color:#394d45}.answer-form{display:flex;gap:7px;min-width:0;flex:1}.answer-form input{flex:1;min-width:0;width:0;height:53px;border:1.5px solid #c7d8cd;border-radius:11px;background:white;font-size:17px;padding:0 14px;outline:0}.answer-form input:focus{border-color:#19936a;box-shadow:0 0 0 3px #17916918}.answer-form input:disabled{background:#f4f7f5}.btn{border:1px solid #d2ddd6;color:var(--ink);background:white;border-radius:10px;padding:9px 13px;font-weight:800;white-space:nowrap}.btn:hover:not(:disabled){background:#f2f7f2}.btn.primary{background:var(--green);color:#fff;border-color:var(--green)}.btn.primary:hover{background:#185c43}.btn.answer-btn{background:#e9f4ec;border-color:#cde5d4;color:#146042}.btn.warn{color:#ad5748}.progress-outer{height:7px;background:#e8eee8;border-radius:90px;overflow:hidden;margin:11px 0 6px}.progress-bar{width:0;height:100%;background:linear-gradient(90deg,#1b8056,#e1b455);border-radius:90px;transition:width .28s}.feedback{text-align:center;color:var(--muted);margin:0;font-size:12px;line-height:20px;min-height:23px}.feedback.success{color:#15744b;font-weight:800}.feedback.error{color:#b65f47}.collection-wrap{background:#fff;border:1px solid var(--border);border-radius:17px;box-shadow:var(--shadow);padding:10px 12px 12px}.dict-tools{display:flex;gap:9px;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap}.group-jumps,.filters{display:flex;gap:4px;align-items:center;flex-wrap:wrap}.group-jumps button,.filters button{font-size:11px;padding:7px 12px;border:0;background:transparent;color:#647a70;border-radius:8px;font-weight:800}.group-jumps button:hover,.filters button:hover{background:#eef4ef}.filters button.active{background:#e1efe6;color:#176743}.percent{font-size:11px;color:#657b6e;margin-left:auto;white-space:nowrap}.collection{height:calc(100dvh - 330px);min-height:340px;overflow-y:auto;overscroll-behavior:contain;background:#f7faf8;border:1px solid #e1e9e3;border-radius:12px;padding:10px;scrollbar-gutter:stable;scroll-behavior:smooth}.section{margin:0 0 17px}.section-head{position:sticky;top:-10px;z-index:1;display:flex;align-items:center;gap:10px;padding:8px 10px;margin:-1px -1px 9px;border-radius:8px;background:#e7f0e9;border:1px solid #dbe6de;color:#365f4c;font-size:13px;font-weight:900}.section-head span{color:#71867b;font-weight:500;font-size:11px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(77px,1fr));gap:7px}.entry{height:105px;min-width:0;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;background:#fff;border:1px solid #e1e9e3;border-radius:11px;text-align:center;padding:7px 4px;scroll-margin-top:45px;transition:background .18s,border .18s}.entry .no{align-self:flex-start;font-size:10px;font-variant-numeric:tabular-nums;font-weight:700;color:#90a59a;line-height:1}.medal{width:53px;height:53px;display:grid;place-items:center;border:4px solid #e4ebe6;border-radius:50%;box-shadow:inset 0 0 0 1px #dbe4dd;background:#f4f7f4;color:#c2cec5;font-weight:800;font-size:25px;flex-shrink:0}.entry .name{font-size:10px;font-weight:800;line-height:1.18;max-width:100%;word-break:break-all;overflow-wrap:anywhere;display:flex;align-items:center;justify-content:center;min-height:22px}.entry .name.blank{color:transparent}.entry.answered{background:#e9f6ef;border-color:#95d6ad}.entry.answered .medal{color:#fff;background:linear-gradient(140deg,#167150,#39a371);border-color:#8bcb9f;box-shadow:0 2px 6px #15895b2b;font-size:15px}.entry.answered .no{color:#32855b}.entry.answered .name{color:#1b6a47}.entry .check{position:absolute;right:6px;top:5px;color:#16815a;font-size:13px;font-weight:900}.entry.revealed:not(.answered){background:#f1f2ef}.entry.revealed .name{color:#89968e}.entry.revealed .medal{border-color:#ddd;color:#aab5ad}.entry.pop{animation:pop .3s ease}.empty{margin:65px auto;color:var(--muted);text-align:center}.below{display:flex;gap:14px;align-items:center;flex-wrap:wrap;justify-content:space-between;padding:13px 4px 10px;color:#62796a;font-size:12px}.settings{display:flex;gap:18px;align-items:center}.settings label{display:flex;gap:6px;align-items:center;cursor:pointer}.settings input{accent-color:var(--green)}.legend{display:flex;gap:15px;align-items:center}.legend i{width:12px;height:12px;display:inline-block;vertical-align:middle;margin-right:5px;border-radius:3px;background:#ecf8ef;border:1px solid #98d4aa}.legend .unknown{background:#f4f7f4;border-color:#e1e9e3}.reset{background:none;border:0;padding:5px 7px;color:#6b8372;font-size:11px;text-decoration:underline}footer{text-align:center;font-size:11px;color:#8b9a8d;line-height:1.7;margin-top:10px}.modal{width:min(560px,calc(100% - 28px));border:1px solid #d7e5d9;border-radius:20px;padding:0;box-shadow:0 25px 80px #163d2d44;max-height:min(85dvh,820px);color:var(--ink)}.modal::backdrop{background:#163d2d8f;backdrop-filter:blur(2px)}.modal-inner{padding:27px}.modal-kicker{font-size:11px;letter-spacing:.12em;color:#a77c37;font-weight:900}.modal h2{font-size:25px;margin:8px 0 15px}.modal-body{font-size:13px;line-height:1.95;color:#50675b;max-height:55dvh;overflow:auto}.modal-body p{margin:10px 0}.modal-body ul{margin:7px 0;padding-left:23px}.modal-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:20px}.result-number{font-size:52px;font-variant-numeric:tabular-nums;font-weight:900;color:#18724c;line-height:1.1}.result-number small{font-size:18px;color:#61786b}.result-stat{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;margin:13px 0;padding:12px;border-radius:11px;background:#f0f7f2;font-size:12px}.answered-list{display:flex;flex-wrap:wrap;gap:5px;max-height:155px;overflow:auto}.answered-list span{background:#e4f2e8;border-radius:6px;padding:2px 7px;color:#1d754e;font-size:11px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@keyframes pop{0%{transform:scale(.88)}70%{transform:scale(1.04)}100%{transform:scale(1)}}
+@media(max-width:980px){main{padding:13px 13px 20px}.toolbar{flex-wrap:wrap}.answer-form{flex-basis:100%}.timer{flex:1}.score{flex:1.5}.collection{height:calc(100dvh - 360px)}.grid{grid-template-columns:repeat(auto-fill,minmax(66px,1fr));gap:6px}.entry{height:96px}.medal{width:46px;height:46px}}
+@media(max-width:540px){main{padding:10px 7px 17px}.mast{padding:1px 4px}.seal{width:38px;height:38px;font-size:17px}.headline{gap:9px}.subtitle{font-size:10px}.mast h1{font-size:22px}.helper{font-size:10px;padding:7px 8px}.modes{width:100%;margin-bottom:9px}.mode{flex:1;padding:9px 7px;font-size:12px}.control-panel{padding:8px 9px 4px;border-radius:12px;margin-bottom:9px}.toolbar{gap:6px}.timer,.score{height:40px}.timer{min-width:0;font-size:19px}.score{min-width:0;gap:10px;padding:0 8px}.score small{font-size:9px}.score strong{font-size:18px}.answer-form input{height:43px;font-size:15px;padding:0 9px}.answer-form .btn{padding:0 8px;font-size:11px}.feedback{font-size:10px}.collection-wrap{padding:7px 6px 8px;border-radius:12px}.dict-tools{gap:2px;margin-bottom:5px}.group-jumps button,.filters button{padding:6px 6px;font-size:10px}.percent{display:none}.collection{height:calc(100dvh - 315px);min-height:250px;padding:6px}.section-head{font-size:11px;top:-6px;margin:0 0 6px;padding:6px}.grid{grid-template-columns:repeat(auto-fill,minmax(51px,1fr));gap:4px}.entry{height:79px;padding:4px 2px;border-radius:7px}.entry .no{font-size:8px}.entry .name{font-size:8px;min-height:18px}.medal{width:38px;height:38px;font-size:20px;border-width:3px}.entry.answered .medal{font-size:12px}.entry .check{right:2px;top:1px;font-size:10px}.below{padding:8px 2px 4px;gap:6px;font-size:10px}.settings{gap:8px}.legend{gap:7px}.legend i{width:9px;height:9px}.modal-inner{padding:17px}.modal h2{font-size:21px}.modal-body{font-size:12px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="mast"><div class="headline"><span class="seal" aria-hidden="true">妖</span><div><div class="subtitle">妖怪ウォッチ3　スシ・テンプラ・スキヤキ</div><h1>全妖怪言えるかな？</h1></div></div><button class="helper" id="help">遊び方 <span aria-hidden="true">？</span></button></div>
+  <nav class="modes" aria-label="ゲームモード"><button class="mode active" data-mode="normal">基本 <small>698体</small></button><button class="mode" data-mode="boss">ボスあり <small>752体</small></button></nav>
+</header>
+<section class="control-panel" aria-label="ゲーム操作">
+  <div class="toolbar">
+    <div class="timer" id="timer" aria-label="経過時間">00:00:00</div>
+    <div class="score"><div><small>正解</small><strong id="correct">0</strong><span class="slash"> / <span id="total">698</span></span></div><div class="remaining"><small>残り</small><strong id="remaining">698</strong><span> 体</span></div></div>
+    <form class="answer-form" id="answer-form"><label class="sr-only" for="answer">妖怪名を入力</label><input id="answer" placeholder="開始を押してスタート" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" disabled><button type="submit" class="btn answer-btn" id="submit" disabled>回答</button><button type="button" class="btn primary" id="start" disabled>開始</button><button type="button" class="btn" id="pause" hidden>一時停止</button><button type="button" class="btn warn" id="giveup" hidden>降参</button></form>
+  </div>
+  <div class="progress-outer" aria-label="達成率"><div class="progress-bar" id="progress"></div></div>
+  <p class="feedback" id="feedback" role="status" aria-live="polite">妖怪の名前を思い出して、できるだけ多く回答しよう！</p>
+  <div id="preview-help" role="note" style="margin:10px auto;padding:11px 14px;max-width:740px;border-radius:10px;background:#fff2d9;border:1px solid #e2b15a;font-size:13px;line-height:1.6;color:#6a4820">⚠️ この画面はゲームのプレビュー表示です。iPhoneのファイルプレビューでは「開始」できない場合があります。<a href="https://convika.com/ja/tools/html-viewer/" target="_blank" rel="noopener noreferrer">SafariでHTMLビューアーを開く</a> → このファイルを選んで遊んでください。GitHub Pagesに公開したURLからも遊べます。</div>
+</section>
+<section class="collection-wrap" aria-label="妖怪大辞典">
+  <div class="dict-tools"><div class="group-jumps"><button type="button" data-jump="main">通常妖怪</button><button type="button" data-jump="special">特別妖怪</button><button type="button" data-jump="boss">ボス妖怪</button></div><div class="filters"><button type="button" class="active" data-filter="all">すべて <span id="all-num">698</span></button><button type="button" data-filter="answered">正解済み <span id="answered-num">0</span></button><button type="button" data-filter="unanswered">未回答 <span id="unanswered-num">698</span></button></div><span class="percent" id="percent">達成率 0%</span></div>
+  <div class="collection" id="collection" tabindex="0" aria-label="妖怪一覧。スクロールして続きを表示できます。"></div>
+</section>
+<div class="below"><div class="settings"><label><input id="sound" type="checkbox"> 効果音</label><label><input id="autoscroll" type="checkbox" checked> 正解へ自動スクロール</label></div><div class="legend"><span><i></i> 正解済み</span><span><i class="unknown"></i> 未回答</span></div><div><button class="reset" id="reset">このモードを最初から</button><button class="btn" id="show-result" hidden>結果を見る</button></div></div>
+<footer>登場妖怪：妖怪ウォッチ3 大辞典698体 ＋ ボス54体（参考資料：<a href="https://wikiwiki.jp/yokai_watch3/%E5%A6%96%E6%80%AA%E5%A4%A7%E8%BE%9E%E5%85%B8" target="_blank" rel="noopener noreferrer">妖怪大辞典</a>）。非公式ファンゲームです。株式会社レベルファイブとは関係ありません。<br>※キャラクターの画像素材は使用せず、オリジナルのメダル風アイコンを表示しています。</footer>
+</main>
+<dialog class="modal" id="modal"><div class="modal-inner"><div class="modal-kicker" id="modal-kicker"></div><h2 id="modal-title"></h2><div class="modal-body" id="modal-body"></div><div class="modal-actions" id="modal-actions"></div></div></dialog>
+<script>
+const YOKAI_NAMES = ["アチャー","枕返し","ぶようじん坊","がらあきん坊","さきがけの助","ダラケ刀","ザンバラ刀","ダララだんびら","かたづ家来","アライ魔将","獅子まる","万尾獅子","おこ武者","くしゃ武者","なまはげ","なまなまはげ","ちからモチ","やきモチ","一瞬ボーイ","寝ブタ","ねぶた","ひつま武士","ひまつ武士","ダメジャー","ダメジャナイン","カブトさん","ゲンマ将軍","黄泉ゲンスイ","おにぎり侍","焼きおに斬り","あかなめ","総ナメ","ガチン小僧","天下無僧","泥田坊","ニクヤ鬼","シラ切りスズメ","ベンケイ","からくりベンケイ","メラメライオン","グラグライオン","とどろき獅子","しょうブシ","まさむね","むらまさ","くさなぎ","フユニャン","妖怪ガッツK","妖怪ガッツF","いばる～ん","やまと","カブキ猿","クワノ武士","クワガ大将","オオクワノ神","マスクドニャーン","モモタロニャン","ニャン騎士","ブリー隊長","ブリー元帥","鬼食い","いのちとり","ヒカリオロチ","鬼蜘蛛","ハンゾウ","コタロウ","椿姫","さかさっ傘","化け草履","パッカー","口すべらし","ズルズルづる","かぜカモ","つづかな僧","やめたい師","もうせん和尚","わすれん帽","メゾン・ドワスレ","ばか頭巾","そらミミズク","じごくミミズク","ナンデナン","そーナンだー","のっぺら坊","ハナホ人","ひじょうぐち","まるナゲット","ピントコーン","カラヤブリ","わらえ姉","青くちびる","バクロ婆","ババァーン","ドクロ婆","モテモ天","モテマクール","モテヌス","一旦ゴメン","あやまり倒し","こえんら","えんらえんら","でんぱく小僧","でんじん","おでんじん","はつでんしん","U.S.O.","アペリカン","フウ2","スットン卿","家ーイ","レインボーン","ペラペライオン","まぼ老師","かげ老師","ほう老師","さとりちゃん","よつめ","うんがい鏡","うんがい三面鏡","ヤミ鏡","セバスチャン","せいでん鬼","なぞトキ","紙かくし","ヒマ神","ミス・テリー","ニャン魔女","オトナカイ","天狗","ほむら天狗","キュウビ","犬神","ぬえ","風魔猿","鬼ガマ","酒呑童子","バニー・ミント","スノーラビィ","マイッカー","だるだるま","だるまっちょ","ゴリだるま","うらや飯","プライ丼","迷い車","だっせんしゃ","ドキ土器","怒気ドキ土器","ムリカベ","むりだ城","シロカベ","グレるりん","ゴクドー","アニ鬼","ブルックりん","あまん汁","ギュウ汁","ポン骨","リボーン","ヨロイさん","モノマネキン","オーバーガー","魔ウンテン","トオセンボン","くろがねセンボン","すもうどん","横綱うどん","あっそう山","あそっ火山","モレゾウ","プルファント","ガマンモス","雷蔵","ヒライ神","あっけら艦","シレイ艦","あせっか鬼","シングコング","カメッパ","おくらいり","カクさん","ふじのやま","さくらのじま","ドウカク","ギンカク","キンカク","プラチナカク","イヌニャン","武者かぶと","かぶと無双","オオツノノ神","キンタロニャン","ステーキング","ロボニャン","ロボニャンF型","ロボニャンUSA","ゴルニャン","だいだらぼっち","うみぼうず","大ガマ","大やもり","赤鬼","青鬼","黒鬼","カブキロイド","ザ・シャーク","エル・シャクレロ","スカイシャリマン","びきゃく","ピヨピヨコ","ほっとけーキ","いきあたりバッタ","しゃれこ婦人","カラカラさん","ほね美人","セミまる","カゲまる","ヒグラシまる","こてんパン","大化ケット","さむガリ","ガリ王子","あつガルル","アンビリバ坊","バッド坊や","激辛ボーイ","つらがわり","一つ目小僧","コンたん","わかランナー","寝コロンブス","デモネード","バク","ハク","おバク様","江戸っ子パンダ","大江戸忍者パンダ","カンペちゃん","無茶ぶりっ子","ノガッパ","たびガッパ","なみガッパ","ジバニャン","Bジバニャン","ジバニャンS","ジバニャン劉備","アカマル","トゲニャン","ワルニャン","ブチニャン","コマさん","ししコマ","Bコマさん","コマさんS","コマさん孫策","ジバコマ","コマじろう","とらじろう","コマじろうS","雨女","ばくそく","ナンスカンク","おきラクーン","おとなブル","たまのこし","キュン太郎","ズキュキュン太","裏キュン太","ケマモン","ワンダーニャン","ジェットニャン","サルニャン","トムニャン","KKブラザーズ","ゆきおんな","ふぶき姫","百鬼姫","メロンニャン","ミカンニャン","キウイニャン","ブドウニャン","イチゴニャン","スイカニャン","サファイニャン","エメラルニャン","ルビーニャン","トパニャン","ダイヤニャン","ロボガッパ","ロボコマ","セーラーニャン","レッドJ","マイティードッグ","かまいたち","チョコボニャン","モーグリニャン","ぷにニャン","ぷにコマ","スシジバ","天コマ","河童","水虎","マスターニャーダ","烏天狗","カルラ","から傘お化け","モ作","ハーモリー","うらやましろう","つまみぐいのすけ","ワカメくん","ワカメ☆スター","コンブさん","メカブちゃん","モズク先生","ひも爺","くいい爺","こめ爺","ハングリーG","キズナメコ","キズナース","砂夫","大山砂夫","風呂ずきん","ふろーラル","アフロ13","テンテコ米","あしたガール","どっちつかず","ポチッ","ウキウキビ","トキメキビ","びんボーイ","お金ナイダー","らくてん童","ざしきわらし","ざしきわら神","ぜっこう蝶","ゼッコウ蝶","サイコウ蝶","アゲアゲハ","くだん","大くだん","どんちゃん","晴れ男","サンタク老師","ふくろじじい","カンガエルー","はなしカミ","サンデーパパ","ガッテンマイヤー","エコロ爺","イーセンイッテル","カントリーバァバ","ホノボーノ","ヒョウヘンヌ","ヒョウヘンナ","キジニャン","ハッピィさん","歯磨貴婦人","ロボG","さいの目入道","ゾロ目大明神","から傘魔人","ウラシマニャン","いたれりつくせり","雷オトン","絶オジイ","聖オカン","心オバア","麒麟","イッカク","スピーディーW","カンフーマッハ","やるせナス","チクリ魔","ちらかし家来","みちび鬼","えこひい鬼","かたのり小僧","かたのり親方","ぎっくり男","草くいおとこ","肉くいおとこ","TETSUYA","KANTETSU","つぶや木","ツリート","ネガティブーン","ジャネガブーン","かゆかゆ","ジミー","カゲロー","カイム","カリカリベーコン","ぎしんあん鬼","ガ鬼","あまのじゃく","ジンギスギスカン","チンギスギスハン","ヒキコウモリ","トジコウモリ","ヤドコウモリ","かりパックン","泥ボックン","ギーくん","ハッキング","ひとまか仙人","りもこんかくし","ジコチュウ","じこけん王","インチキン","あんのジョー","アイタタタイムズ","ゴジダツ爺","ネクラマテング","ヨミテング","まてんし","リー夫人","ガブニャン","カッパー","ダリス","USAピョン","USAピョン(アメフト)","USAピョン(マリン)","USAピョン(ミリタリー)","USAピョン(ドライビング)","B-USAピョン","USAピョン仲達","ミツマタノヅチ","魔ガサス","ウ魔","ガシャどくろ","デビビル","デビビラン","虫歯伯爵","百々目鬼","きらめ鬼","ドケチング","ヤミまろ","どんどろ","ヤミキュウビ","ゼロ博士","Dr.カゲムラ","魔天王","かえりタイ","やぶレター","てのひらがえし","あしでまとい","イガイガグリ","チクチクウニ","じめりんぼう","雨ふらし","こおりんぼう","化けあられ","たらりん","ヨコドリ","ぶんぶん鳥","はらおドリ","おともらし","爆音ならし","トホホギス","ブカッコウ","死神鳥","じんめん犬","かおベロス","三途の犬","けうけげん","ふさふさん","たいこモチ","ごまスリー","認MEN","黄ばんドール","ふあんかん","たらいまわし","口だけおんな","おつぼね様","ドンヨリーヌ","シメッポイーナ","砂ン丘入道","ノー砂ン丘入道","じがじぃさん","のらりくらり","おすべり様","おしっしょう","おひとり様","テンパるンバ","こしパンダ","おならず者","へこ鬼神","花子さん","呪野花子","ロボメン犬","けちらし","アンラッキィさん","ヨッチャ～","しわくちゃん","老いらん","ふじみ御前","のぼせトンマン","ダークニャン","決めて魔王","おとろし","フゥミン","おねむの精","土蜘蛛","女郎蜘蛛","オリジン","ファントム","サキちゃん","ねちがえる","バンジーきゅうす","マイマイペース","ダソックス","アーダコンダ","ツチノコ","フクリュウ","ツチノコパンダ","ツチノコ星人","からみぞん","こんがらギャル","オッタマゲーター","ナンモナイト","カイーギョ","笑ウツボ","歌ウナギ","大蛇のツボ","たこやっ鬼","たこや鬼神","キライギョ","ゾウオ","ギャクジョウオ","おもいだスッポン","おもいだ神","ムカムカデ","激ドラゴン","りゅーくん","龍神","青龍","にんぎょ","八百比丘尼","イザナミ","ダイナシー","D-レックス","ドジラ","ろくろ首","ウィスパー","ウィスベェ","キリスギリス","ひっぱりダコ","たこうらみ","ボー坊","しどろもどろ","ミチクサメ","トーシロザメ","ムダヅカイ","はらわシェル","ナガバナ","ナガバナナ","チョコバナーナ","ホリュウ","ロボノコ","ロボりゅーくん","油すまし","しきるん蛇","すねスネーク","まむし行司","つられたろう丸","おれリュウ","オロチ","影オロチ","センポクカンポク","マッサラニャン","アンドロイド山田","厄怪","不怪","豪怪","難怪","破怪","あかなめ・怪","泥田坊・怪","えんらえんら・怪","河童・怪","から傘お化け・怪","ざしきわらし・怪","くだん・怪","けうけげん・怪","にんぎょ・怪","ろくろ首・怪","ジバニャンK","USAピョンQ","コマさんJ","コマじゅうろう","フユニャンエース","ウィスババ","弁財天","布袋尊","大黒天","恵比寿","毘沙門天","コロンブス","エジソン","ダーウィン","ラストブシニャン","キラコマ","プラチナ鬼","ブルジョワG","ブシニャン","しゅらコマ","山吹鬼","ネタバレリーナ","花さか爺","うんちく魔","イケメン犬","やまタン","ばたんQ","乙姫","あしゅら","ニャーミネーター","ヒーローニャン","フユニャンS","フユニャン曹操","ひとりよがり","ウォール・ガイ","ガランドゥ","バケルトン","メカオロチ","黒鬼呂布","メカキュウビ","Uロボニャン","デバミ","しらんプリン","ミーフー","コアラニャン","Tジバニャン","Tコマさん","卵の君","ワルノリン","サニーレタスさん","テレテル坊主","モルラ","ミカエリ","一旦ソーリー","ヨドム","まんまミーラ","ダークコマー","USA豆腐","夜行","ゴージャス大使","日ノ神","ぬらりひょん","さきのばし","オタカラもどき","ジャンクコシノ","ウィスパー孔明","寿老人","福禄寿","マジンカーメン","ゴーキングデッド","パンドラ","リアクション大王","ニャステト","ズラビス","スピーチ姫","トリベア","ジェントル面犬","自慢ハッタン","難陀竜王","エンマ大王","ぬらり神","覚醒日ノ神","先代閻魔大王","覚醒エンマ","ノストラダマス","シヴァラク","銅拍子","吽形","阿形","おんもらき","ちょうちんお化け","牛頭","馬頭","イソノナミ","ヤマオカミ","ツキノヤミ","ふぶきちゃん","KJ","太陽神エンマ","時空神エンマ","暗黒神エンマ","インディ・J","Mr.スコップ","ゾン・ビー・C","ネコ2世","クレクレパトラ","ヤマトボケル","エルドラゴーン","日ノ鳥"];
+const BOSS_NAMES = ["ガラクタリアン","スーパー店長","モーソーもんもん","インジャネーノ","魔・インジャネーノ","ヤーメルン邪先生","デカニャン","やぶれかぶれ院長","妖怪獣ガメゴス","ヨップくん","ワルボV5","ベッティーさん","カミナラス五郎","ゴゴゴGF","空想ユメミガチーノ","怪盗ダルマント","あおべえあかべえ","だるべえまーべえ","つづらチュン太夫","つづらチュンだるま","異次元とーちゃん","プリズンブレイカー","日ノ神(ボス)","ゲボール不死長","びしゃがつく","赤鬼(ボス)","青鬼(ボス)","黒鬼(ボス)","ツノだるま","坐・だるま師匠","鬼KING","のぼせトンマン(ボス)","おのぼり黒トン","Gババーン","モテアマス","オモテナス","イカカモネ議長","マイティードッグ(ボス)","レッドJ(ボス)","覚醒日ノ神(ボス)","ロボニャン28号","八つ裂鬼","ドグシャッコー","クロノオーメン","ゴゴゴTドラゴン","豪鉄鬼","大妖鬼ホゲホエール","クジラマン","惨ゲ鬼","キャプテンサンダー","キャプテンサンダー(第2形態)","ブシ王","あなほりモグ蔵","ラストブシ王"];
+'use strict';
+
+// 妖怪名はバージョン4.0の大辞典番号順。各モードの記録は端末内のみに保存されます。
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => [...document.querySelectorAll(sel)];
+const GROUPS = [
+  {from:1,to:67,title:'イサマシ族',tag:'main'},
+  {from:68,to:138,title:'フシギ族',tag:'main'},
+  {from:139,to:208,title:'ゴーケツ族',tag:'main'},
+  {from:209,to:300,title:'プリチー族',tag:'main'},
+  {from:301,to:374,title:'ポカポカ族',tag:'main'},
+  {from:375,to:445,title:'ウスラカゲ族',tag:'main'},
+  {from:446,to:510,title:'ブキミー族',tag:'main'},
+  {from:511,to:574,title:'ニョロロン族',tag:'main'},
+  {from:575,to:589,title:'怪魔',tag:'main'},
+  {from:590,to:618,title:'レジェンド・特別妖怪',tag:'special'},
+  {from:619,to:675,title:'追加・特別妖怪',tag:'special'},
+  {from:676,to:698,title:'Ver.3.0～4.0の追加妖怪',tag:'special'},
+  {from:699,to:752,title:'ボス妖怪',tag:'boss'}
+];
+const ITEMS = [...YOKAI_NAMES.map((name,i)=>({id:'n'+(i+1),number:i+1,name,kind:'main'})),
+ ...BOSS_NAMES.map((name,i)=>({id:'b'+(i+1),number:699+i,name,kind:'boss'}))];
+
+// よく使われる読みを追加。カタカナ⇔ひらがな、全角⇔半角は自動変換。
+const extraReadings = `
+枕返し|まくらがえし
+ぶようじん坊|ぶようじんぼう
+がらあきん坊|がらあきんぼう
+さきがけの助|さきがけのすけ
+ダラケ刀|だらけとう
+ザンバラ刀|ざんばらとう
+かたづ家来|かたづけらい
+アライ魔将|あらいましょう
+獅子まる|ししまる
+万尾獅子|まんおじし
+おこ武者|おこむしゃ
+くしゃ武者|くしゃむしゃ
+一瞬ボーイ|いっしゅんぼーい
+寝ブタ|ねぶた
+ひつま武士|ひつまぶし
+ひまつ武士|ひまつぶし
+ゲンマ将軍|げんましょうぐん
+黄泉ゲンスイ|よみげんすい
+おにぎり侍|おにぎりざむらい
+焼きおに斬り|やきおにぎり
+総ナメ|そうなめ
+ガチン小僧|がちんこぞう
+天下無僧|てんかむそう
+泥田坊|どろたぼう
+ニクヤ鬼|にくやき
+シラ切りスズメ|しらきりすずめ
+とどろき獅子|とどろきじし
+鬼食い|おにくい
+鬼蜘蛛|おにぐも
+椿姫|つばきひめ
+さかさっ傘|さかさっかさ
+化け草履|ばけぞうり
+のっぺら坊|のっぺらぼう
+わらえ姉|わらえねえ
+青くちびる|あおくちびる
+バクロ婆|ばくろばあ
+ドクロ婆|どくろばあ
+モテモ天|もてもてん
+一旦ゴメン|いったんごめん
+でんぱく小僧|でんぱくこぞう
+スットン卿|すっとんきょう
+家ーイ|いえーい
+まぼ老師|まぼろうし
+かげ老師|かげろうし
+ほう老師|ほうろうし
+うんがい鏡|うんがいきょう
+うんがい三面鏡|うんがいさんめんきょう
+ヤミ鏡|やみかがみ
+せいでん鬼|せいでんき
+紙かくし|かみかくし
+ヒマ神|ひまじん
+ニャン魔女|にゃんまじょ
+天狗|てんぐ
+ほむら天狗|ほむらてんぐ
+犬神|いぬがみ
+風魔猿|ふうまざる
+鬼ガマ|おにがま
+酒呑童子|しゅてんどうじ
+うらや飯|うらやまし
+プライ丼|ぷらいどん
+迷い車|まよいぐるま
+ドキ土器|どきどき
+怒気ドキ土器|どきどきどき
+むりだ城|むりだじょう
+あまん汁|あまんじる
+ギュウ汁|ぎゅうじる
+魔ウンテン|まうんてん
+横綱うどん|よこづなうどん
+あっそう山|あっそうざん
+あそっ火山|あそっかざん
+雷蔵|らいぞう
+ヒライ神|ひらいしん
+あっけら艦|あっけらかん
+シレイ艦|しれいかん
+武者かぶと|むしゃかぶと
+かぶと無双|かぶとむそう
+大ガマ|おおがま
+大やもり|おおやもり
+赤鬼|あかおに
+青鬼|あおおに
+黒鬼|くろおに
+大化ケット|たいかけっと
+一つ目小僧|ひとつめこぞう
+寝コロンブス|ねころんぶす
+江戸っ子パンダ|えどっこぱんだ
+大江戸忍者パンダ|おおえどにんじゃぱんだ
+無茶ぶりっ子|むちゃぶりっこ
+雨女|あめおんな
+裏キュン太|うらきゅんた
+百鬼姫|ひゃっきひめ
+水虎|すいこ
+河童|かっぱ
+烏天狗|からすてんぐ
+から傘お化け|からかさおばけ
+モ作|もさく
+ひも爺|ひもじい
+くいい爺|くいいじい
+こめ爺|こめじい
+砂夫|すなお
+大山砂夫|おおやますなお
+風呂ずきん|ふろずきん
+お金ナイダー|おかねないだー
+らくてん童|らくてんどう
+ざしきわら神|ざしきわらしん
+ぜっこう蝶|ぜっこうちょう
+サイコウ蝶|さいこうちょう
+大くだん|だいくだん
+晴れ男|はれおとこ
+歯磨貴婦人|はみがきふじん
+さいの目入道|さいのめにゅうどう
+ゾロ目大明神|ぞろめだいみょうじん
+から傘魔人|からかさまじん
+雷オトン|かみなりおとん
+絶オジイ|ぜつおじい
+聖オカン|せいおかん
+心オバア|しんおばあ
+麒麟|きりん
+えこひい鬼|えこひいき
+ぎっくり男|ぎっくりおとこ
+草くいおとこ|くさくいおとこ
+肉くいおとこ|にくくいおとこ
+つぶや木|つぶやき
+ガ鬼|がき
+泥ボックン|どろぼっくん
+ひとまか仙人|ひとまかせんにん
+じこけん王|じこけんおう
+ゴジダツ爺|ごじだつじい
+リー夫人|りーふじん
+魔ガサス|まがさす
+ウ魔|うま
+虫歯伯爵|むしばはくしゃく
+百々目鬼|どどめき
+きらめ鬼|きらめき
+魔天王|まてんおう
+ぶんぶん鳥|ぶんぶんどり
+爆音ならし|ばくおんならし
+死神鳥|しにがみどり
+じんめん犬|じんめんけん
+三途の犬|さんずのいぬ
+認MEN|みとめん
+黄ばんドール|きばんどーる
+口だけおんな|くちだけおんな
+おつぼね様|おつぼねさま
+砂ン丘入道|さんきゅうにゅうどう
+ノー砂ン丘入道|のーさんきゅうにゅうどう
+おすべり様|おすべりさま
+おひとり様|おひとりさま
+花子さん|はなこさん
+呪野花子|のろいのはなこ
+老いらん|おいらん
+ふじみ御前|ふじみごぜん
+決めて魔王|きめてまおう
+おねむの精|おねむのせい
+土蜘蛛|つちぐも
+女郎蜘蛛|じょろうぐも
+大蛇のツボ|おろちのつぼ
+たこや鬼神|たこやきしん
+おもいだ神|おもいだしん
+激ドラゴン|げきどらごん
+龍神|りゅうじん
+青龍|せいりゅう
+八百比丘尼|やおびくに
+油すまし|あぶらすまし
+まむし行司|まむしぎょうじ
+影オロチ|かげおろち
+厄怪|やっかい
+不怪|ふかい
+豪怪|ごうかい
+難怪|なんかい
+破怪|はかい
+泥田坊・怪|どろたぼうかい
+河童・怪|かっぱかい
+から傘お化け・怪|からかさおばけかい
+大黒天|だいこくてん
+恵比寿|えびす
+毘沙門天|びしゃもんてん
+山吹鬼|やまぶきおに
+花さか爺|はなさかじい
+うんちく魔|うんちくま
+乙姫|おとひめ
+卵の君|たまごのきみ
+夜行|やこう
+日ノ神|ひのしん
+寿老人|じゅろうじん
+福禄寿|ふくろくじゅ
+難陀竜王|なんだりゅうおう
+エンマ大王|えんまだいおう
+ぬらり神|ぬらりしん
+覚醒日ノ神|かくせいひのしん
+先代閻魔大王|せんだいえんまだいおう
+覚醒エンマ|かくせいえんま
+銅拍子|どうびょうし
+吽形|うんぎょう
+阿形|あぎょう
+牛頭|ごず
+馬頭|めず
+太陽神エンマ|たいようしんえんま
+時空神エンマ|じくうしんえんま
+暗黒神エンマ|あんこくしんえんま
+日ノ鳥|ひのとり
+スーパー店長|すーぱーてんちょう
+魔・インジャネーノ|まいんじゃねーの
+妖怪獣ガメゴス|ようかいじゅうがめごす
+空想ユメミガチーノ|くうそうゆめみがちーの
+怪盗ダルマント|かいとうだるまんと
+異次元とーちゃん|いじげんとーちゃん
+日ノ神(ボス)|ひのしんぼす
+赤鬼(ボス)|あかおにぼす
+青鬼(ボス)|あおおにぼす
+黒鬼(ボス)|くろおにぼす
+坐・だるま師匠|ざだるまししょう
+鬼KING|おにきんぐ
+のぼせトンマン(ボス)|のぼせとんまんぼす
+イカカモネ議長|いかかもねぎちょう
+覚醒日ノ神(ボス)|かくせいひのしんぼす
+八つ裂鬼|やつざきおに
+豪鉄鬼|ごうてっき
+大妖鬼ホゲホエール|だいようきほげほえーる
+惨ゲ鬼|さんげき
+ブシ王|ぶしおう
+ラストブシ王|らすとぶしおう
+`.trim();
+const aliasMap = new Map();
+for(const line of extraReadings.split('\n')){
+  const [name,...words]=line.split('|');
+  aliasMap.set(name,words);
+}
+
+function normalize(text){
+  return String(text ?? '').normalize('NFKC').toLowerCase()
+    .replace(/[ァ-ヶ]/g,ch=>String.fromCharCode(ch.charCodeAt(0)-96))
+    .replace(/[\s\u3000・･·.．。、～〜~_\-‐ー☆★]/g,'')
+    .replace(/[()（）\[\]]/g,'');
+}
+const acceptable = ITEMS.map(item => {
+  const sourceName = item.name;
+  let names = [sourceName,...(aliasMap.get(sourceName)||[])];
+  if(item.kind==='boss' && sourceName.includes('(ボス)')) {
+    names.push(sourceName.replace('(ボス)',''));
+    const baseName = sourceName.replace('(ボス)','');
+    names.push(...(aliasMap.get(baseName)||[]));
+  }
+  return {id:item.id,keys:new Set(names.map(normalize))};
+});
+const ITEM_BY_ID=new Map(ITEMS.map(item=>[item.id,item]));
+const TICK_MS=200;
+const STORAGE='yw3-ierukana-2026-v1-';
+let mode='normal';
+let filter='all';
+let state;
+let startedAt=0;
+let ticker=null;
+let composing=false;
+let lastAwarded=[];
+let audio=null;
+try{if(localStorage.getItem(STORAGE+'mode')==='boss')mode='boss';}catch{}
+function activeItems(){return mode==='boss'?ITEMS:ITEMS.slice(0,698);}
+function freshState(){return{version:1,status:'ready',answered:[],elapsed:0};}
+function readState(){
+  try{
+    const current=JSON.parse(localStorage.getItem(STORAGE+mode));
+    if(current?.version===1 && Array.isArray(current.answered)){
+      const allowed=new Set(activeItems().map(x=>x.id));
+      return {version:1,status:current.status==='playing'?'paused':(['ready','paused','ended','complete'].includes(current.status)?current.status:'ready'),answered:[...new Set(current.answered.filter(x=>allowed.has(x)))],elapsed:Math.max(0,Number(current.elapsed)||0)};
+    }
+  }catch{}
+  return freshState();
+}
+function currentElapsed(){return state.elapsed + (state.status==='playing' ? Date.now()-startedAt : 0);}
+function persist(){try{localStorage.setItem(STORAGE+mode,JSON.stringify({...state,elapsed:currentElapsed()}));}catch{}}
+function timeString(ms){
+  const seconds=Math.floor(ms/1000);
+  return [Math.floor(seconds/3600),Math.floor(seconds/60)%60,seconds%60].map(x=>String(x).padStart(2,'0')).join(':');
+}
+function announce(message,type=''){$('#feedback').textContent=message;$('#feedback').className='feedback '+type;}
+function soundWin(){
+  if(!$('#sound').checked)return;
+  try{
+    audio ||=new (window.AudioContext||window.webkitAudioContext)();
+    if(audio.state==='suspended')audio.resume();
+    const now=audio.currentTime;
+    for(const [index,freq] of [660,880].entries()){
+      const oscillator=audio.createOscillator(),volume=audio.createGain(),at=now+index*.095;
+      oscillator.type='sine';oscillator.frequency.value=freq;
+      volume.gain.setValueAtTime(0.0001,at);
+      volume.gain.exponentialRampToValueAtTime(0.095,at+.018);
+      volume.gain.exponentialRampToValueAtTime(0.0001,at+.14);
+      oscillator.connect(volume).connect(audio.destination);
+      oscillator.start(at);oscillator.stop(at+.15);
+    }
+  }catch{}
+}
+function escapeHtml(text){return String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function setModal(kicker,title,html,actions){
+  $('#modal-kicker').textContent=kicker;
+  $('#modal-title').textContent=title;
+  $('#modal-body').innerHTML=html;
+  const container=$('#modal-actions');container.replaceChildren();
+  for(const action of actions){
+    const btn=document.createElement('button');btn.type='button';btn.className='btn'+(action.primary?' primary':'');btn.textContent=action.label;
+    btn.onclick=()=>{$('#modal').close();if(action.run)action.run();};
+    container.append(btn);
+  }
+  if(!$('#modal').open)$('#modal').showModal();
+}
+function medalText(name){
+  let clean=name.replace(/\(.*?\)/g,'').replace(/[^\p{L}\p{N}]/gu,'');
+  return [...clean].slice(0,2).join('');
+}
+function updateCounters(){
+  const count=activeItems().length,solved=state.answered.length;
+  $('#correct').textContent=solved;
+  $('#total').textContent=count;
+  $('#remaining').textContent=count-solved;
+  $('#all-num').textContent=count;
+  $('#answered-num').textContent=solved;
+  $('#unanswered-num').textContent=count-solved;
+  const percent=100*solved/count;
+  $('#percent').textContent=`達成率 ${percent.toFixed(1)}%`;
+  $('#progress').style.width=percent+'%';
+  $('#timer').textContent=timeString(currentElapsed());
+}
+function updateButtons(){
+  const playing=state.status==='playing',paused=state.status==='paused',ended=['ended','complete'].includes(state.status);
+  $('#start').hidden=playing||ended;
+  $('#start').textContent=paused?'再開':'開始';
+  $('#pause').hidden=!playing;
+  $('#giveup').hidden=(!playing&&!paused);
+  $('#show-result').hidden=!ended;
+  $('#answer').disabled=!playing;
+  $('#submit').disabled=!playing;
+  $('#answer').placeholder=playing?'妖怪の名前を入力':paused?'一時停止中':ended?'チャレンジ終了':'開始を押してスタート';
+  $$('.mode').forEach(btn=>btn.classList.toggle('active',btn.dataset.mode===mode));
+  $$('[data-jump="boss"]').forEach(btn=>btn.hidden=mode!=='boss');
+}
+function render(){
+  updateCounters();updateButtons();
+  $$('.filters button').forEach(btn=>btn.classList.toggle('active',btn.dataset.filter===filter));
+  const answered=new Set(state.answered);
+  const container=$('#collection');
+  const oldTop=container.scrollTop;
+  let output='';let groupsDrawn=0;
+  for(const group of GROUPS){
+    if(mode==='normal'&&group.tag==='boss')continue;
+    const entries=activeItems().filter(item => item.number>=group.from && item.number<=group.to && (filter==='all'||(filter==='answered' ? answered.has(item.id) : !answered.has(item.id))));
+    if(!entries.length)continue;
+    groupsDrawn++;
+    output+=`<section class="section" data-section="${group.tag}"><div class="section-head">${escapeHtml(group.title)} <span>${entries.length}体</span></div><div class="grid">`;
+    for(const item of entries){
+      const done=answered.has(item.id),revealed=['ended','complete'].includes(state.status),label=done||revealed;
+      const status=done?'answered':revealed?'revealed':'';
+      const classes=label?'name':'name blank';
+      const code=item.kind==='boss'?'B-'+String(item.number-698).padStart(3,'0'):String(item.number).padStart(3,'0');
+      output+=`<div id="yokai-${item.id}" class="entry ${status} ${lastAwarded.includes(item.id)?'pop':''}" title="${label?escapeHtml(item.name):'未回答'}"><span class="no">${code}</span><div class="medal" aria-hidden="true">${done?escapeHtml(medalText(item.name)):'?'}</div><span class="${classes}">${label?escapeHtml(item.name):'？？？'}</span>${done?'<span class="check">✓</span>':''}</div>`;
+    }
+    output+='</div></section>';
+  }
+  if(!groupsDrawn)output='<p class="empty">この条件に当てはまる妖怪はいません。</p>';
+  container.innerHTML=output;
+  container.scrollTop=oldTop;
+}
+function focusAnswer(){if(state.status==='playing'&&window.matchMedia('(pointer:fine)').matches)$('#answer').focus({preventScroll:true});}
+function begin(){
+  if(state.status==='ready'){state.answered=[];state.elapsed=0;}
+  if(state.status!=='ready'&&state.status!=='paused')return;
+  state.status='playing';startedAt=Date.now();
+  persist();updateButtons();updateCounters();
+  announce('正式名称・かなで入力できます。名前を入力してEnterまたは「回答」を押そう。');
+  focusAnswer();
+}
+function pauseGame(){
+  if(state.status!=='playing')return;
+  state.elapsed=currentElapsed();state.status='paused';persist();
+  updateButtons();updateCounters();announce('一時停止中です。「再開」で続きを遊べます。');
+}
+function finish(kind){
+  if(state.status==='playing')state.elapsed=currentElapsed();
+  state.status=kind;persist();render();
+  announce(kind==='complete'?'全妖怪コンプリート！ おめでとう！':'チャレンジ終了。結果を確認できます。',kind==='complete'?'success':'');
+  showResult();
+}
+function ensureScrollTo(id){
+  const element=document.getElementById('yokai-'+id),list=$('#collection');if(!element)return;
+  const listBounds=list.getBoundingClientRect(),tileBounds=element.getBoundingClientRect();
+  list.scrollTo({top:list.scrollTop+tileBounds.top-listBounds.top-list.clientHeight/2+tileBounds.height/2,behavior:window.matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});
+}
+function answerName(){
+  if(state.status!=='playing'||composing)return;
+  const input=$('#answer'),raw=input.value.trim(),key=normalize(raw);
+  if(!key)return;
+  const eligible=new Set(activeItems().map(x=>x.id));
+  const hits=acceptable.filter(row=>eligible.has(row.id)&&row.keys.has(key));
+  if(!hits.length){announce(`「${raw}」はこのモードの正解リストに見つかりませんでした。`, 'error');return;}
+  const already=new Set(state.answered);
+  const newHits=hits.filter(hit=>!already.has(hit.id));
+  if(!newHits.length){announce('その妖怪はすでに回答済みです！');input.value='';return;}
+  for(const hit of newHits)state.answered.push(hit.id);
+  lastAwarded=newHits.map(x=>x.id);
+  input.value='';soundWin();persist();render();
+  const found=newHits.map(x=>ITEM_BY_ID.get(x.id).name);
+  announce(`正解！ ${found.join(' ＆ ')}　（${state.answered.length} / ${activeItems().length}体）`,'success');
+  if($('#autoscroll').checked&&filter!=='unanswered')ensureScrollTo(newHits[0].id);
+  focusAnswer();
+  if(state.answered.length===activeItems().length)finish('complete');
+}
+function showResult(){
+  const total=activeItems().length,count=state.answered.length,pct=(count/total*100).toFixed(1),time=timeString(currentElapsed());
+  const names=state.answered.map(id=>ITEM_BY_ID.get(id)?.name).filter(Boolean);
+  const label=mode==='boss'?'ボスあり':'基本';
+  const msg=`妖怪ウォッチ3「全妖怪言えるかな？」に挑戦！\n${count}/${total}体を思い出した！ 達成率${pct}%／タイム${time}／モード：${label} #妖怪ウォッチ3`;
+  const html=`<div class="result-number">${count}<small> / ${total}体</small></div><div class="result-stat"><span>達成率：<b>${pct}%</b></span><span>タイム：<b>${time}</b></span><span>モード：<b>${label}</b></span></div><p>思い出した妖怪（${count}体）</p><div class="answered-list">${names.length?names.map(x=>'<span>'+escapeHtml(x)+'</span>').join(''):'まだありません'}</div><p style="font-size:11px">正解・未回答の一覧は、下の大辞典で確認できます。</p>`;
+  setModal(state.status==='complete'?'ALL COMPLETE':'RESULT','今回のチャレンジ結果',html,[
+    {label:'結果をコピー',run:()=>navigator.clipboard?.writeText(msg).catch(()=>window.prompt('次のテキストをコピーしてください',msg))},
+    {label:'閉じる',primary:true}]);
+}
+function confirmEnd(){
+  setModal('FINISH','ここで降参する？','<p>ここまでの正解数と経過時間を結果に記録します。まだ回答していない妖怪も一覧で表示されます。</p>',[
+    {label:'続ける',primary:true},
+    {label:'降参する',run:()=>finish('ended')}
+  ]);
+}
+function resetCurrent(){
+  setModal('RESET','最初からやり直す？','<p>このモードの回答記録とタイマーを消去します。別のモードの記録は消えません。</p>',[
+    {label:'キャンセル',primary:true},
+    {label:'このモードをリセット',run:()=>{state=freshState();lastAwarded=[];filter='all';persist();$('#collection').scrollTop=0;render();announce('リセットしました。開始ボタンを押してください。');}}
+  ]);
+}
+function switchMode(next){
+  if(next===mode)return;
+  if(state.status==='playing')pauseGame();
+  mode=next;try{localStorage.setItem(STORAGE+'mode',mode);}catch{}
+  filter='all';lastAwarded=[];state=readState();
+  $('#collection').scrollTop=0;render();
+  announce(state.status==='paused'?'前回の続きが保存されています。「再開」で始められます。':(state.status==='ended'||state.status==='complete'?'前回の結果が保存されています。':'モードを切り替えました。「開始」を押してください。'));
+}
+function help(){
+  setModal('HOW TO PLAY','遊び方',`<p>制限時間なしで、思い出せる妖怪の名前を入力して大辞典を埋めていくゲームです。</p><ul><li><b>基本：</b>妖怪ウォッチ3の大辞典に載る698体。</li><li><b>ボスあり：</b>基本698体とボス54体、合計752体。</li><li>名前を入力して「回答」、またはEnterで確定します。ひらがなとカタカナは区別しません。漢字を使う名前は正式表記に加え、主な読みがなにも対応しています。</li><li>一時停止と再開ができます。記録はこのブラウザに自動保存されます。</li><li>「降参」を押すと未回答の名前も公開されます。</li></ul><p>※画像素材を使用しない非公式ファン制作版です。大辞典の掲載名を基準にしています。</p>`,[{label:'さっそく遊ぶ',primary:true,run:focusAnswer}]);
+}
+
+$('#answer-form').addEventListener('submit',e=>{e.preventDefault();answerName();});
+$('#answer').addEventListener('compositionstart',()=>{composing=true;});
+$('#answer').addEventListener('compositionend',()=>{composing=false;});
+$('#start').addEventListener('click',begin);
+$('#pause').addEventListener('click',pauseGame);
+$('#giveup').addEventListener('click',confirmEnd);
+$('#show-result').addEventListener('click',showResult);
+$('#reset').addEventListener('click',resetCurrent);
+$('#help').addEventListener('click',help);
+$$('.mode').forEach(btn=>btn.addEventListener('click',()=>switchMode(btn.dataset.mode)));
+$$('.filters button').forEach(btn=>btn.addEventListener('click',()=>{filter=btn.dataset.filter;$('#collection').scrollTop=0;render();}));
+$$('.group-jumps button').forEach(btn=>btn.addEventListener('click',()=>{
+  if(btn.dataset.jump==='boss'&&mode==='normal')return;
+  if(filter!=='all'){filter='all';render();}
+  let section;
+  if(btn.dataset.jump==='main')section=$('.section[data-section="main"]');
+  if(btn.dataset.jump==='special')section=$('.section[data-section="special"]');
+  if(btn.dataset.jump==='boss')section=$('.section[data-section="boss"]');
+  if(section){const list=$('#collection'),c=list.getBoundingClientRect(),s=section.getBoundingClientRect();list.scrollTo({top:list.scrollTop+s.top-c.top-6,behavior:'smooth'});}
+}));
+for(const id of ['sound','autoscroll']){
+  try{const val=localStorage.getItem(STORAGE+id);if(val!==null)$('#'+id).checked=val==='true';}catch{}
+  $('#'+id).addEventListener('change',()=>{try{localStorage.setItem(STORAGE+id,String($('#'+id).checked));}catch{}});
+}
+window.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&state.status==='playing')pauseGame();});
+window.addEventListener('pagehide',persist);
+window.setInterval(()=>{if(state.status==='playing')updateCounters();},TICK_MS);
+window.setInterval(()=>{if(state.status==='playing')persist();},5000);
+$('#start').disabled=false;
+$('#preview-help').hidden=true;
+state=readState();
+render();
+if(state.status==='paused')announce('前回の途中記録があります。「再開」で続きから遊べます。');
+if(state.status==='ended'||state.status==='complete')announce('前回のチャレンジ結果が残っています。「結果を見る」で確認できます。');
+
+</script>
+</body>
+</html>
